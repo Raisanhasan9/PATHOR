@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: pathor-api
+    runtime: node
+    buildCommand: npm install
+    startCommand: node src/server.js
